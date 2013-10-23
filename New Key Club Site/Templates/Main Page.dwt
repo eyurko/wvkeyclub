@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="/css/MainPage.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34535427-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+<a href="/"><img src="/images/logos/Faded-Logo-Alt.png" alt="Key Club Logo" name="District Logo" width="180" height="180" id="Logo" /></a><!-- TemplateBeginEditable name="header" -->
+    <!-- end .header -->
+<!-- TemplateEndEditable --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/Search.html">Search</a></li>
+      <li><a href="/dates.html">Important Dates</a></li>
+      <li><a href="/KC101.html">Key Club 101</a></li>
+      <li><a href="/TheDistrictBoard.html">The District Board</a></li>
+      <li><a href="/Conventions.html">Conventions</a></li>
+      <li><a href="/Service.html">Service</a></li>
+      <li><a href="/ForYourClub.html">For Your Club</a></li>
+      <li><a href="/FindAClub.html">Find a Club</a></li>
+      <li><a href="/Kiwanis.html">Kiwanis</a></li>
+      <li><a href="/FeaturedClub.html">Featured Club</a></li>
+      <li><a href="/links.html">Links</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <a href="https://twitter.com/wvkeyclub" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @wvkeyclub</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="wvkeyclub" data-size="large" data-hashtags="website">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<p><br /></p>
+    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fwvkeyclub&amp;width=180&amp;height=570&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=249362088442734" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:600px;" allowTransparency="true"></iframe>
+<!-- TemplateBeginEditable name="sidebar" -->
+<!-- TemplateEndEditable -->
+    <!-- end .sidebar1 --></div>
+<!-- TemplateBeginEditable name="content" -->
+  <div class="content">
+    <h1>Instructions</h1>
+    <p>Be aware that the CSS for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fixed layouts. You can remove these comments before you launch your site. To learn more about the techniques used in these CSS Layouts, read this article at Adobe's Developer Center - <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
+    <h2>Clearing Method</h2>
+    <p>Because all the columns are floated, this layout uses a clear:both declaration in the .footer rule.  This clearing technique forces the .container to understand where the columns end in order to show any borders or background colors you place on the .container. If your design requires you to remove the .footer from the .container, you'll need to use a different clearing method. The most reliable will be to add a &lt;br class=&quot;clearfloat&quot; /&gt; or &lt;div  class=&quot;clearfloat&quot;&gt;&lt;/div&gt; after your final floated column (but before the .container closes). This will have the same clearing effect.</p>
+    <h3>Logo Replacement</h3>
+    <p>An image placeholder was used in this layout in the .header where you'll likely want to place  a logo. It is recommended that you remove the placeholder and replace it with your own linked logo. </p>
+    <p> Be aware that if you use the Property inspector to navigate to your logo image using the SRC field (instead of removing and replacing the placeholder), you should remove the inline background and display properties. These inline styles are only used to make the logo placeholder show up in browsers for demonstration purposes. </p>
+    <p>To remove the inline styles, make sure your CSS Styles panel is set to Current. Select the image, and in the Properties pane of the CSS Styles panel, right click and delete the display and background properties. (Of course, you can always go directly into the code and delete the inline styles from the image or placeholder there.)</p>
+    <h4>Backgrounds</h4>
+    <p>By nature, the background color on any div will only show for the length of the content. This means if you're using a background color or border to create the look of a side column, it won't extend all the way to the footer but will stop when the content ends. If the .content div will always contain more content, you can place a border on the .content div to divide it from the column.</p>
+    <!-- end .content --></div>
+<!-- TemplateEndEditable -->
+  <div class="footer">
+    <p>2013-2014 West Virginia District of Key Club International<br />
+    Contact us at <a href="mailto:contact@wvkeyclub.com" target="_blank">contact@wvkeyclub.com</a></p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

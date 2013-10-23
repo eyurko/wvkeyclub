@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-align:center;
+}
+
+.intro{
+	text-align:left;
+}
+
+.title{
+	text-decoration:underline;
+	font-weight:bold;
+}
